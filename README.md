@@ -4,13 +4,13 @@ This repository contains my submission for a Data Engineering lab that explores 
 
 ---
 
-### 🧩 Business Problem
+### Business Problem
 
 In real-world data engineering, datasets are often incomplete or lack semantic meaning. The goal of this project was to demonstrate how external APIs (such as exchange rate or geocoding services) and LLMs (e.g., OpenAI models) can enhance the value of raw datasets by enriching them with contextual or generated information.
 
 ---
 
-### 📦 Dataset Overview
+### Dataset Overview
 
 The dataset consisted of simulated transactional records with customer locations and metadata, lacking readable labels or descriptions. The following types of data enrichments were explored:
 
@@ -20,7 +20,7 @@ The dataset consisted of simulated transactional records with customer locations
 
 ---
 
-### 🎯 Project Objectives
+### Project Objectives
 
 - Perform data enrichment using open/public APIs
 - Apply LLM-powered transformations to enhance column readability or derive categories
@@ -29,7 +29,7 @@ The dataset consisted of simulated transactional records with customer locations
 
 ---
 
-### 🛠️ Solution Approach
+### Solution Approach
 
 1. **API Integration**
    - Used a mock or placeholder geolocation API to convert city names to country/timezone
@@ -49,7 +49,7 @@ The dataset consisted of simulated transactional records with customer locations
 
 ---
 
-### 💡 Business Value
+### Business Value
 
 This lab demonstrates how modern data engineers can leverage AI and external APIs to enhance the richness and usability of raw data, yielding:
 
@@ -59,7 +59,7 @@ This lab demonstrates how modern data engineers can leverage AI and external API
 
 ---
 
-### 🚧 Challenges Encountered
+### Challenges Encountered
 
 - Handling unpredictable API responses
 - Managing inconsistent field values and NaNs
